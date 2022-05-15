@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cute cat images">
+    <meta name="theme-color" content="#707ee1">
+    <meta property="og:title" content="Cute cat images">
+    <meta property="og:description" content="Warning! These cats are so cute">
+    <meta property="og:image" content="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F06%2F26%2Ftiny-white-kitten-873941684-2000.jpg">
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=./noscript.html">
+    </noscript>
+    <title>Cute Cat Images</title>
+</head>
+<body>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+            font-family: sans-serif;
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            border: 0;
+            color: #fff;
+        }
+    </style>
+    <img src="" alt="Loading...">
+    <script>
+        const img = [
+            'https://external-preview.redd.it/uOF8WTQJe7qED2q56MkdE59sBdE1dvcbE8JtL4aWhxc.jpg?auto=webp&s=b40b81499572177c50c1a07af32dadf2d62b653c',
+            'https://i-cdn.embed.ly/1/display?key=fd92ebbc52fc43fb98f69e50e7893c13&url=https%3A%2F%2Fexternal-preview.redd.it%2FNZ1RxYuNkBlmCVaqtq38ErvginCW9WVltovcwTYsSjc.jpg%3Fauto%3Dwebp%26s%3D58851d5e887032090285e7e148980ffc9dbcb1d8',
+            'https://i-cdn.embed.ly/1/display?key=fd92ebbc52fc43fb98f69e50e7893c13&url=https%3A%2F%2Fc2.staticflickr.com%2F6%2F5665%2F22269522711_ec8dc752ab_o.jpg',
+            'https://i-cdn.embed.ly/1/display?key=fd92ebbc52fc43fb98f69e50e7893c13&url=https%3A%2F%2Fi.redd.it%2Fj27ykj1xjhm11.jpg',
+            'https://i-cdn.embed.ly/1/display?key=fd92ebbc52fc43fb98f69e50e7893c13&url=https%3A%2F%2Fi.redd.it%2Faojpde6c6hb31.jpg',
+            'https://i-cdn.embed.ly/1/display?key=fd92ebbc52fc43fb98f69e50e7893c13&url=https%3A%2F%2Fi.redd.it%2Ft96tz27t0s231.jpg',
+            'https://i-cdn.embed.ly/1/display?key=fd92ebbc52fc43fb98f69e50e7893c13&url=https%3A%2F%2Fexternal-preview.redd.it%2FGZnB0kmL8DOiy4NZMt2jIGt5LOE24YweGY4x7l48Wt4.jpg%3Fauto%3Dwebp%26s%3D6f5d3d6c11ae73585361334404a84d3a02ea6e67',
+            'https://i-cdn.embed.ly/1/display?key=fd92ebbc52fc43fb98f69e50e7893c13&url=https%3A%2F%2Fi.redd.it%2F8ydx76f0zv911.jpg',
+            'https://i-cdn.embed.ly/1/display?key=fd92ebbc52fc43fb98f69e50e7893c13&url=https%3A%2F%2Fexternal-preview.redd.it%2FPdxDmNhOp2RzdSQmbcAGZlmbNH0X-nmSmEJdzbt86bs.jpg%3Fauto%3Dwebp%26s%3De0b176551ba6755cf2f758a69a0912b3e9baf1ea',
+            'https://preview.redd.it/pz57hgq4g3z81.png?width=640&crop=smart&auto=webp&s=8cd25bfefd183ff86890d543b603c0a9387518fc',
+            'https://preview.redd.it/docyz40u2ry81.jpg?width=640&crop=smart&auto=webp&s=f2b1ba80c48c9bc75ee685b147f0ba0c69bace44',
+            'https://preview.redd.it/knztp4y7lby81.jpg?width=640&crop=smart&auto=webp&s=572ffa0937c088359f73077aa030bcf23960eb46',
+            'https://preview.redd.it/lngqnqcet6y81.jpg?width=640&crop=smart&auto=webp&s=2e44631600d9688efcaa26377a2257f95e90ec3d',
+            'https://i.redd.it/wpjxgbyr3yx81.jpg',
+            'https://preview.redd.it/b9te4el0exx81.png?width=640&crop=smart&auto=webp&s=42e90e0f06a5bb7faa02fa42ca435a1aa3047f63'
+        ];
+
+        const random = Math.floor(Math.random() * img.length);
+        const imgElement = document.querySelector('img');
+        
+        imgElement.setAttribute('src', img[random]);
+    </script>
+</body>
+</html>
